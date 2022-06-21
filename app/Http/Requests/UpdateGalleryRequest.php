@@ -26,7 +26,7 @@ class UpdateGalleryRequest extends FormRequest
         return [
             'title'=>'min:2|max:255',
             'description'=>'max:1000',
-            'images'=>'sometimes'
+            'image_url'=>'sometimes'
         ];
     }
 }
